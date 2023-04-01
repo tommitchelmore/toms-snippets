@@ -10,8 +10,6 @@ This is a collection of snippets I use in my daily work with React and NextJS - 
 
 ## Installation
 
-To automatically install the extension, [click here](vscode:extension/mitchelmore.toms-snippets). To manually install it, use the following steps:
-
 1. Open the command palette (<kbd>⌃ Control</kbd> + <kbd>P</kbd> or <kbd>⌘ Command</kbd> + <kbd>P</kbd>)
 2. Type `ext install mitchelmore.toms-snippets`
 
