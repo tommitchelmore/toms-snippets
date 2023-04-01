@@ -3,6 +3,7 @@
   "displayName": "Tom's Snippets",
   "description": "Custom snippets for my NextJS workflow",
   "repository": "https://github.com/tommitchelmore/toms-snippets",
+  "publisher": "mitchelmore",
   "license": "MIT",
   "version": "0.0.1",
   "engines": {
