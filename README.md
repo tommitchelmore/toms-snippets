@@ -1,6 +1,21 @@
 # Tom's Snippets
 
+![](https://img.shields.io/badge/VSCode-1.77.0-blue.svg)
+![](https://img.shields.io/visual-studio-marketplace/i/mitchelmore.toms-snippets)
+![](https://img.shields.io/visual-studio-marketplace/d/mitchelmore.toms-snippets)
+![](https://img.shields.io/visual-studio-marketplace/r/mitchelmore.toms-snippets)
+![](https://img.shields.io/visual-studio-marketplace/v/mitchelmore.toms-snippets)
+
 This is a collection of snippets I use in my daily work with React and NextJS - they should come in quite handy.
+
+## Installation
+
+To automatically install the extension, [click here](vscode:extension/mitchelmore.toms-snippets). To manually install it, use the following steps:
+
+1. Open the command palette (<kbd>⌃ Control</kbd> + <kbd>P</kbd> or <kbd>⌘ Command</kbd> + <kbd>P</kbd>)
+2. Type `ext install mitchelmore.toms-snippets`
+
+Or download directly from the [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=mitchelmore.toms-snippets).
 
 ## Snippets
 
