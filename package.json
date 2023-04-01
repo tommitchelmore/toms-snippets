@@ -1,0 +1,24 @@
+{
+  "name": "toms-snippets",
+  "displayName": "Tom's Snippets",
+  "description": "Custom snippets for my NextJS workflow",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/react.json"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/next.json"
+      }
+    ]
+  }
+}

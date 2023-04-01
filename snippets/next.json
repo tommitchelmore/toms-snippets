@@ -1,0 +1,72 @@
+{
+    "NextJS page": {
+		"scope": "typescript,typescriptreact",
+		"description": "NextJS page",
+		"prefix": "np",
+		"body": [
+			"function ${0}Page() {",
+			"\treturn (",
+			"\t\t<div>",
+			"\t\t\t",
+			"\t\t</div>",
+			"\t);",
+			"}",
+			"",
+			"export default ${0}Page;"
+		]
+	},
+    "NextJS page with getStaticProps": {
+        "scope": "typescript,typescriptreact",
+        "description": "NextJS page with getStaticProps",
+        "prefix": "npsg",
+        "body": [
+            "import { InferGetStaticPropsType } from \"next\";",
+            "",
+            "export async function getStaticProps() {",
+            "\treturn {",
+            "\t\tprops: {",
+            "\t\t\t",
+            "\t\t},",
+            "\t};",
+            "}",
+            "",
+            "function ${0}Page(props: InferGetStaticPropsType<typeof getStaticProps>) {",
+            "\treturn (",
+            "\t\t<div>",
+            "\t\t\t",
+            "\t\t</div>",
+            "\t);",
+            "}",
+            "",
+            "export default ${0}Page;",
+            ""
+        ]
+    },
+    "NextJS page with getServerSideProps": {
+        "scope": "typescript,typescriptreact",
+        "description": "NextJS page with getServerSideProps",
+        "prefix": "npsr",
+        "body": [
+            "import { InferGetServerSidePropsType } from \"next\";",
+            "",
+            "export async function getServerSideProps() {",
+            "\treturn {",
+            "\t\tprops: {",
+            "\t\t\t",
+            "\t\t},",
+            "\t};",
+            "}",
+            "",
+            "function ${0}Page(props: InferGetServerSidePropsType<typeof getServerSideProps>) {",
+            "\treturn (",
+            "\t\t<div>",
+            "\t\t\t",
+            "\t\t</div>",
+            "\t);",
+            "}",
+            "",
+            "export default ${0}Page;",
+            ""
+        ]
+    }
+}

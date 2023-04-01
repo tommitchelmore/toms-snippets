@@ -1,0 +1,102 @@
+{
+	"Typescript functional component": {
+		"scope": "typescript,typescriptreact",
+		"description": "Typescript functional component",
+		"prefix": "tsf",
+		"body": [
+			"function ${TM_FILENAME_BASE}() {",
+			"\treturn (",
+			"\t\t<div>",
+			"\t\t\t",
+			"\t\t</div>",
+			"\t);",
+			"}",
+			"",
+			"export default ${TM_FILENAME_BASE};"
+		]
+	},
+	"Typescript functional component with props": {
+		"scope": "typescript,typescriptreact",
+		"description": "Typescript functional component with props",
+		"prefix": "tsfp",
+		"body": [
+			"function ${TM_FILENAME_BASE}(props: ${TM_FILENAME_BASE}Props) {",
+			"\treturn (",
+			"\t\t<div>",
+			"\t\t\t",
+			"\t\t</div>",
+			"\t);",
+			"}",
+			"",
+			"type ${TM_FILENAME_BASE}Props = {",
+			"\t",
+			"}",
+			"",
+			"export default ${TM_FILENAME_BASE};"
+		]
+	},
+	"Typescript functional component with children": {
+		"scope": "typescript,typescriptreact",
+		"description": "Typescript functional component with children",
+		"prefix": "tsfc",
+		"body": [
+			"import { ReactNode } from \"react\";",
+			"",
+			"function ${TM_FILENAME_BASE}({ children, ...props }: ${TM_FILENAME_BASE}Props) {",
+			"\treturn (",
+			"\t\t<div>",
+			"\t\t\t{children}",
+			"\t\t</div>",
+			"\t);",
+			"}",
+			"",
+			"type ${TM_FILENAME_BASE}Props = {",
+			"\tchildren?: ReactNode;",
+			"}",
+			"",
+			"export default ${TM_FILENAME_BASE};"
+		]
+	},
+	"Typescript functional component with prop inheritance": {
+		"scope": "typescript,typescriptreact",
+		"description": "Typescript functional component with prop inheritance",
+		"prefix": "tsfi",
+		"body": [
+			"import { ComponentProps } from \"react\";",
+			"",
+			"function ${TM_FILENAME_BASE}({ ...props }: ${TM_FILENAME_BASE}Props) {",
+			"\treturn (",
+			"\t\t<${0} {...props} />",
+			"\t);",
+			"}",
+			"",
+			"type ${TM_FILENAME_BASE}Props = ComponentProps<\"${0}\"> & {",
+			"\t",
+			"}",
+			"",
+			"export default ${TM_FILENAME_BASE};"
+		]
+	},
+	"Typescript functional component with prop inheritance & children": {
+		"scope": "typescript,typescriptreact",
+		"description": "Typescript functional component with prop inheritance & children",
+		"prefix": "tsfic",
+		"body": [
+			"import { ComponentProps } from \"react\";",
+			"",
+			"function ${TM_FILENAME_BASE}({ children, ...props }: ${TM_FILENAME_BASE}Props) {",
+			"\treturn (",
+			"\t\t<${0} {...props}>",
+			"\t\t\t{children}",
+			"\t\t</${0}>",
+			"\t);",
+			"}",
+			"",
+			"type ${TM_FILENAME_BASE}Props = ComponentProps<\"${0}\"> & {",
+			"\t",
+			"}",
+			"",
+			"export default ${TM_FILENAME_BASE};"
+		]
+	}
+}
